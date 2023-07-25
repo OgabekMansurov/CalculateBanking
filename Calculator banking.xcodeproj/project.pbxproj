@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444D5AB32A3620A700B0D636 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 444D5AB22A3620A700B0D636 /* IQKeyboardManagerSwift */; };
+		84392C0B2A315A22006AE98E /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84392C0A2A315A22006AE98E /* Help.swift */; };
+		84392C0F2A31DAA3006AE98E /* Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84392C0E2A31DAA3006AE98E /* Saving.swift */; };
+		84392C132A31FAD4006AE98E /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84392C122A31FAD4006AE98E /* HelpViewController.swift */; };
+		84392C152A320A0C006AE98E /* HelpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84392C142A320A0C006AE98E /* HelpTableViewCell.swift */; };
+		84ECE26C2A2FD7FC00B3BF82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE26B2A2FD7FC00B3BF82 /* AppDelegate.swift */; };
+		84ECE2752A2FD7FE00B3BF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ECE2742A2FD7FE00B3BF82 /* Assets.xcassets */; };
+		84ECE2802A2FDA6700B3BF82 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE27F2A2FDA6700B3BF82 /* MainTabBarController.swift */; };
+		84ECE2842A2FDB0700B3BF82 /* LoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2832A2FDB0700B3BF82 /* LoansViewController.swift */; };
+		84ECE2862A2FDB1200B3BF82 /* SavingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2852A2FDB1200B3BF82 /* SavingViewController.swift */; };
+		84ECE2882A2FDB2800B3BF82 /* CompuntSavingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2872A2FDB2800B3BF82 /* CompuntSavingViewController.swift */; };
+		84ECE28E2A2FEAF700B3BF82 /* hexstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE28D2A2FEAF700B3BF82 /* hexstring.swift */; };
+		84ECE2952A2FFE2C00B3BF82 /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2942A2FFE2C00B3BF82 /* MortgageViewController.swift */; };
+		84ECE2972A3022E800B3BF82 /* Mortgage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2962A3022E800B3BF82 /* Mortgage.swift */; };
+		84ECE2992A30968E00B3BF82 /* Double+Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2982A30968E00B3BF82 /* Double+Round.swift */; };
+		84ECE29B2A3099CD00B3BF82 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE29A2A3099CD00B3BF82 /* UIButton.swift */; };
+		84ECE29D2A309A5500B3BF82 /* UITextField+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE29C2A309A5500B3BF82 /* UITextField+Validations.swift */; };
+		84ECE29F2A309BAE00B3BF82 /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE29E2A309BAE00B3BF82 /* UIViewController+Alerts.swift */; };
+		84ECE2A12A309F9500B3BF82 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2A02A309F9500B3BF82 /* Loan.swift */; };
+		84ECE2A32A30A31500B3BF82 /* CompoundSavings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2A22A30A31500B3BF82 /* CompoundSavings.swift */; };
+		84ECE2AB2A30BC5300B3BF82 /* UIViewController+KeyboardListeners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE2AA2A30BC5300B3BF82 /* UIViewController+KeyboardListeners.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84392C0A2A315A22006AE98E /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		84392C0E2A31DAA3006AE98E /* Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving.swift; sourceTree = "<group>"; };
+		84392C122A31FAD4006AE98E /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		84392C142A320A0C006AE98E /* HelpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTableViewCell.swift; sourceTree = "<group>"; };
+		84ECE2682A2FD7FC00B3BF82 /* Calculator banking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator banking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ECE26B2A2FD7FC00B3BF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84ECE2742A2FD7FE00B3BF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84ECE2792A2FD7FE00B3BF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ECE27F2A2FDA6700B3BF82 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		84ECE2832A2FDB0700B3BF82 /* LoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansViewController.swift; sourceTree = "<group>"; };
+		84ECE2852A2FDB1200B3BF82 /* SavingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingViewController.swift; sourceTree = "<group>"; };
+		84ECE2872A2FDB2800B3BF82 /* CompuntSavingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompuntSavingViewController.swift; sourceTree = "<group>"; };
+		84ECE28D2A2FEAF700B3BF82 /* hexstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexstring.swift; sourceTree = "<group>"; };
+		84ECE2942A2FFE2C00B3BF82 /* MortgageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
+		84ECE2962A3022E800B3BF82 /* Mortgage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mortgage.swift; sourceTree = "<group>"; };
+		84ECE2982A30968E00B3BF82 /* Double+Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Round.swift"; sourceTree = "<group>"; };
+		84ECE29A2A3099CD00B3BF82 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		84ECE29C2A309A5500B3BF82 /* UITextField+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Validations.swift"; sourceTree = "<group>"; };
+		84ECE29E2A309BAE00B3BF82 /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+		84ECE2A02A309F9500B3BF82 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		84ECE2A22A30A31500B3BF82 /* CompoundSavings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundSavings.swift; sourceTree = "<group>"; };
+		84ECE2AA2A30BC5300B3BF82 /* UIViewController+KeyboardListeners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+KeyboardListeners.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ECE2652A2FD7FC00B3BF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444D5AB32A3620A700B0D636 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84ECE25F2A2FD7FC00B3BF82 = {
+			isa = PBXGroup;
+			children = (
+				84ECE26A2A2FD7FC00B3BF82 /* Calculator banking */,
+				84ECE2692A2FD7FC00B3BF82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84ECE2692A2FD7FC00B3BF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ECE2682A2FD7FC00B3BF82 /* Calculator banking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ECE26A2A2FD7FC00B3BF82 /* Calculator banking */ = {
+			isa = PBXGroup;
+			children = (
+				84ECE26B2A2FD7FC00B3BF82 /* AppDelegate.swift */,
+				84ECE2912A2FF5B100B3BF82 /* Model */,
+				84ECE28C2A2FEAED00B3BF82 /* Ext */,
+				84ECE28B2A2FDEB400B3BF82 /* VC */,
+				84ECE2742A2FD7FE00B3BF82 /* Assets.xcassets */,
+				84ECE2792A2FD7FE00B3BF82 /* Info.plist */,
+			);
+			path = "Calculator banking";
+			sourceTree = "<group>";
+		};
+		84ECE28B2A2FDEB400B3BF82 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				84ECE27F2A2FDA6700B3BF82 /* MainTabBarController.swift */,
+				84ECE2942A2FFE2C00B3BF82 /* MortgageViewController.swift */,
+				84ECE2832A2FDB0700B3BF82 /* LoansViewController.swift */,
+				84ECE2852A2FDB1200B3BF82 /* SavingViewController.swift */,
+				84ECE2872A2FDB2800B3BF82 /* CompuntSavingViewController.swift */,
+				84392C122A31FAD4006AE98E /* HelpViewController.swift */,
+				84392C142A320A0C006AE98E /* HelpTableViewCell.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		84ECE28C2A2FEAED00B3BF82 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				84ECE28D2A2FEAF700B3BF82 /* hexstring.swift */,
+				84ECE2982A30968E00B3BF82 /* Double+Round.swift */,
+				84ECE29A2A3099CD00B3BF82 /* UIButton.swift */,
+				84ECE29C2A309A5500B3BF82 /* UITextField+Validations.swift */,
+				84ECE29E2A309BAE00B3BF82 /* UIViewController+Alerts.swift */,
+				84ECE2AA2A30BC5300B3BF82 /* UIViewController+KeyboardListeners.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		84ECE2912A2FF5B100B3BF82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84ECE2962A3022E800B3BF82 /* Mortgage.swift */,
+				84ECE2A02A309F9500B3BF82 /* Loan.swift */,
+				84ECE2A22A30A31500B3BF82 /* CompoundSavings.swift */,
+				84392C0A2A315A22006AE98E /* Help.swift */,
+				84392C0E2A31DAA3006AE98E /* Saving.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84ECE2672A2FD7FC00B3BF82 /* Calculator banking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ECE27C2A2FD7FE00B3BF82 /* Build configuration list for PBXNativeTarget "Calculator banking" */;
+			buildPhases = (
+				84ECE2642A2FD7FC00B3BF82 /* Sources */,
+				84ECE2652A2FD7FC00B3BF82 /* Frameworks */,
+				84ECE2662A2FD7FC00B3BF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculator banking";
+			packageProductDependencies = (
+				444D5AB22A3620A700B0D636 /* IQKeyboardManagerSwift */,
+			);
+			productName = "Calculator banking";
+			productReference = 84ECE2682A2FD7FC00B3BF82 /* Calculator banking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ECE2602A2FD7FC00B3BF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84ECE2672A2FD7FC00B3BF82 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 84ECE2632A2FD7FC00B3BF82 /* Build configuration list for PBXProject "Calculator banking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84ECE25F2A2FD7FC00B3BF82;
+			packageReferences = (
+				444D5AB12A3620A700B0D636 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 84ECE2692A2FD7FC00B3BF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ECE2672A2FD7FC00B3BF82 /* Calculator banking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84ECE2662A2FD7FC00B3BF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECE2752A2FD7FE00B3BF82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ECE2642A2FD7FC00B3BF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECE2862A2FDB1200B3BF82 /* SavingViewController.swift in Sources */,
+				84ECE2992A30968E00B3BF82 /* Double+Round.swift in Sources */,
+				84ECE2882A2FDB2800B3BF82 /* CompuntSavingViewController.swift in Sources */,
+				84ECE2A12A309F9500B3BF82 /* Loan.swift in Sources */,
+				84ECE2972A3022E800B3BF82 /* Mortgage.swift in Sources */,
+				84ECE29D2A309A5500B3BF82 /* UITextField+Validations.swift in Sources */,
+				84ECE2A32A30A31500B3BF82 /* CompoundSavings.swift in Sources */,
+				84ECE2952A2FFE2C00B3BF82 /* MortgageViewController.swift in Sources */,
+				84ECE2842A2FDB0700B3BF82 /* LoansViewController.swift in Sources */,
+				84392C0F2A31DAA3006AE98E /* Saving.swift in Sources */,
+				84ECE26C2A2FD7FC00B3BF82 /* AppDelegate.swift in Sources */,
+				84392C132A31FAD4006AE98E /* HelpViewController.swift in Sources */,
+				84392C0B2A315A22006AE98E /* Help.swift in Sources */,
+				84392C152A320A0C006AE98E /* HelpTableViewCell.swift in Sources */,
+				84ECE29B2A3099CD00B3BF82 /* UIButton.swift in Sources */,
+				84ECE29F2A309BAE00B3BF82 /* UIViewController+Alerts.swift in Sources */,
+				84ECE28E2A2FEAF700B3BF82 /* hexstring.swift in Sources */,
+				84ECE2802A2FDA6700B3BF82 /* MainTabBarController.swift in Sources */,
+				84ECE2AB2A30BC5300B3BF82 /* UIViewController+KeyboardListeners.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84ECE27A2A2FD7FE00B3BF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84ECE27B2A2FD7FE00B3BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ECE27D2A2FD7FE00B3BF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NSUR5S76H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculator banking/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ogabek-Mansurov.Calculator-banking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84ECE27E2A2FD7FE00B3BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NSUR5S76H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculator banking/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ogabek-Mansurov.Calculator-banking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ECE2632A2FD7FC00B3BF82 /* Build configuration list for PBXProject "Calculator banking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ECE27A2A2FD7FE00B3BF82 /* Debug */,
+				84ECE27B2A2FD7FE00B3BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ECE27C2A2FD7FE00B3BF82 /* Build configuration list for PBXNativeTarget "Calculator banking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ECE27D2A2FD7FE00B3BF82 /* Debug */,
+				84ECE27E2A2FD7FE00B3BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		444D5AB12A3620A700B0D636 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		444D5AB22A3620A700B0D636 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 444D5AB12A3620A700B0D636 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84ECE2602A2FD7FC00B3BF82 /* Project object */;
+}
